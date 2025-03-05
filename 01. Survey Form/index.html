@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <h1 id="title">Register An Account</h1>
+  <p id="description">Please fill out this form with the required information</p>
+  <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+    <label id="name-label">Name: <input type="text" id="name" placeholder="Enter your name" required></label>
+    <label id="email-label">Email: <input type="email" id="email" placeholder="Enter your email" required></label>
+    <label id="number-label">Age: <input min="3" max="10" type="number" id="number"
+        placeholder="Enter a number"></label>
+
+    <label for="referrer">How did you hear about us?
+      <select id="dropdown" name="referrer">
+        <option selected disabled value="0">(select one)</option>
+        <option value="1">Google</option>
+        <option value="2">Youtube</option>
+      </select>
+    </label>
+
+    <fieldset>
+      <legend>Account type (required)</legend>
+      <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline"
+          value="1" checked /> Personal</label>
+      <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline"
+          value="2" />
+        Business</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>You will use the app for</legend>
+      <label for="content"><input id="content" type="checkbox" name="account-type" class="inline" value="content"
+          checked /> Content Createion</label>
+      <label for="education"><input id="education" type="checkbox" name="account-type" class="inline"
+          value="education" />
+        Education</label>
+    </fieldset>
+
+    <label for="about" id="textarea">Tell us about yourself:
+      <textarea id="about" name="about" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+    </label>
+
+    <input id="submit" type="submit" value="Submit" />
+  </form>
+</body>
+
+</html>
