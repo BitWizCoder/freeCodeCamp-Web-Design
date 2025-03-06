@@ -10,6 +10,11 @@
   font-family: "Poppins", sans-serif;
 }
 
+body,
+html {
+  height: 100%;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -127,3 +132,106 @@
   border-radius: 10px;
   width: 100%;
 }
+
+/* ===================== */
+/*       Built Section
+/* ===================== */
+#built {
+  background-color: #f5f5f7;
+  margin-top: 80px;
+}
+
+#built h3 {
+  padding: 28px 0;
+}
+
+#built p {
+  margin-bottom: 45px;
+}
+
+#built span {
+  color: #147d89;
+}
+
+#built p {
+  width: 700px;
+}
+
+#built img {
+  margin-bottom: 156px;
+  width: 100%;
+}
+
+/* ===================== */
+/*   Workspace Section
+/* ===================== */
+#workspace {
+  background-image: url(./img/workspace.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70%;
+  margin: 0 auto;
+}
+
+/* ===================== */
+/*   Performance Section
+/* ===================== */
+
+#performance {
+  margin-top: 80px;
+}
+
+#performance span {
+  color: #6648e9;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.images img {
+  width: 100%;
+  height: auto;
+}
+
+/* ===================== */
+/*   Accessories Section
+/* ===================== */
+#accessories {
+  background-image: url(./img/Accessories.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  gap: 16px;
+  text-align: center;
+  padding-bottom: 32px;
+
+  margin-top: 80px;
+}
+
+#accessories span {
+  color: #30a3a0;
+}
+
+#accessories p {
+  width: 700px;
+}
+
+#accessories a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+
+/* ===================== */
+/*   Upgrade Section
+/* ===================== */
